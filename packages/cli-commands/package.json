@@ -1,0 +1,21 @@
+{
+  "name": "@techton/cli-commands",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "tsc -p tsconfig.build.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@techton/cli-core": "^0.0.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  }
+}

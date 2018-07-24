@@ -1,0 +1,21 @@
+{
+  "name": "@techton/cli-ui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "tsc -p tsconfig.build.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "@types/node-emoji": "^1.8.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "node-emoji": "^1.8.1"
+  }
+}

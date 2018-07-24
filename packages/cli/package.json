@@ -1,0 +1,22 @@
+{
+  "name": "@techton/cli",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "techton": "bin/techton.js"
+  },
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@techton/cli-commands": "^0.0.1",
+    "@techton/cli-core": "^0.0.1",
+    "@types/node": "^8.0.28",
+    "commander": "^2.16.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  }
+}

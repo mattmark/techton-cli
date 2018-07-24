@@ -1,36 +1,9 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "moduleResolution": "node",
-    "target": "es6",
-    "module":"commonjs",
-    "lib": ["es2017"],
-    "strict": true,
-    "declaration": false,
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "noImplicitReturns": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": false,
-    "noFallthroughCasesInSwitch": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true,
-    "allowJs": false,
-    "noEmit": true,
-    "strictNullChecks": true,
-    "skipLibCheck": true,
-    "sourceMap": false,
-    "typeRoots": [
-      "node_modules/@types"
-    ]
-  },
-  "include": [
-    "commands",
-    "actions",
-    "bin",
-    "lib",
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "baseUrl": "./packages",
+    "paths": {
+      "@techton/*": ["./*/src"]
+    }
+  }
 }
