@@ -1,2 +1,2 @@
-export * from './interface'
-export * from './loader'
+export * from "./Command"
+export * from "./loader"
